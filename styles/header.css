@@ -1,0 +1,131 @@
+.header{
+  height:55px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index:1;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(206, 203, 203)
+
+}
+
+.left-section{
+display:flex;
+  align-items: centre;
+}
+
+.hamburger-menu {
+  height:24px;
+  margin-left: 24px;
+  margin-right: 20px;
+}
+
+.youtube-logo {
+  height:20px;
+}
+
+.middle-section{
+  flex:1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display:flex;
+  align-items: centre;
+}
+
+.search-bar{
+  flex:1;
+  height:34px;
+  padding-left: 12px;
+  font: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(232, 232, 232);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+
+}
+
+.search-bar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 14px;
+}
+
+.search-button{
+  height:40px;
+  width:50px;
+  background-color: rgb(201, 198, 198);
+  border-width:1px;
+  border-style: solid;
+  margin-left: -1px;
+  margin-right: 8px;
+}
+
+.search-icon{
+  height:25px;
+  margin-top: 4px;
+}
+
+.voice-search-icon{
+  height: 40px;
+  width:40px;
+  border-radius: 20px;
+  border: none;
+}
+
+.voice-search-button{
+  height:24px;
+  margin-top: 4px;
+  background-color: rgb(205, 197, 197);
+}
+
+.right-section{
+  width: 180px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.upload-icon{
+  height: 20px;
+}
+
+.youtube-apps{
+  height: 20px;
+}
+
+.notifications{
+  height: 20px;
+}
+
+.notifications-icon-container{
+  position: relative;
+}
+
+.notifications-count{
+  positions: absolute;
+  top: -10;
+  right: -10;
+  background-color: red;
+  color: white;
+  font-family: roboto, arial;
+  font-size: 12px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+}
+
+.my-channel{
+  height: 24px;
+  border-radius: 16px;
+}
